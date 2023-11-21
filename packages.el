@@ -53,3 +53,4 @@
 (package! ace-window :disable t)
 
 (package! dashboard)
+(package! ripgrep)

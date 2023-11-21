@@ -83,3 +83,4 @@
 
 (dashboard-setup-startup-hook)
 
+(map! "C-." #'vterm-send-next-key)
