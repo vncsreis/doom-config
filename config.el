@@ -84,3 +84,11 @@
 (dashboard-setup-startup-hook)
 
 (map! "C-." #'vterm-send-next-key)
+
+
+
+(after! sly (setq sly-complete-symbol-function 'sly-flex-completions))
+
+
+(after! apheleia
+  (set-formatter! 'erlfmt '("erlfmt" "-") :modes '(erlang-mode)))
